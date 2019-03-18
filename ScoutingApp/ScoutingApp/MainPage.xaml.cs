@@ -63,7 +63,7 @@ namespace ScoutingApp
                 if (RepeatTeam == -1)
                 {
                     Data[CurrIndex][i] = Entries[i].Text;
-                }else if(i < 2 || i == 11)
+                }else if(i < 2)
                 {
                     Data[RepeatTeam][i] = Entries[i].Text;
                 }else if(i >= 2 && i < 10)
@@ -72,6 +72,12 @@ namespace ScoutingApp
                 } else if(i == 10)
                 {
                     Data[RepeatTeam][i] = Convert.ToString((Climb + int.Parse(Data[RepeatTeam][i])) / 2);
+                } else if(i == 11)
+                {
+                    if(Entries[i].Text != string.Empty)
+                    {
+                        Data[RepeatTeam][i] = Entries[i].Text;
+                    }
                 }
                 Entries[i].Text = string.Empty;
             }
