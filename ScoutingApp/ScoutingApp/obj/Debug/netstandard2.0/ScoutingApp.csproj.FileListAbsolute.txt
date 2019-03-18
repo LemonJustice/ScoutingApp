@@ -1,0 +1,12 @@
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp\obj\Debug\netstandard2.0\ScoutingApp.csprojAssemblyReference.cache
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp\obj\Debug\netstandard2.0\ScoutingApp.csproj.CoreCompileInputs.cache
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp\obj\Debug\netstandard2.0\ScoutingApp.AssemblyInfoInputs.cache
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp\obj\Debug\netstandard2.0\ScoutingApp.AssemblyInfo.cs
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp\obj\Debug\netstandard2.0\ScoutingApp.dll
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp\obj\Debug\netstandard2.0\ScoutingApp.pdb
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp\bin\Debug\netstandard2.0\ScoutingApp.deps.json
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp\bin\Debug\netstandard2.0\ScoutingApp.dll
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp\bin\Debug\netstandard2.0\ScoutingApp.pdb
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp\obj\Debug\netstandard2.0\XamlC.stamp

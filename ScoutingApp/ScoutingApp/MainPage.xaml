@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ScoutingApp;Assembly=ScoutingApp"
+             x:Class="ScoutingApp.MainPage">
+    <ScrollView>
+        <AbsoluteLayout>
+            <!-- x: 0 - ~270 y: infinite -->
+            <BoxView AbsoluteLayout.LayoutBounds="0, 0, 270, 40" BackgroundColor="#CC000d1a"/>
+            <Image Source = "NeobotsLogo.png" AbsoluteLayout.LayoutBounds="0, 0, 42, 42" AbsoluteLayout.LayoutFlags="None"/>
+            <Label Text="Neobots 2903 Scouting System" BackgroundColor="Transparent" TextColor="Lime" FontSize="12" AbsoluteLayout.LayoutBounds="45, 10, 400, 45"/>
+            <Button Text="Ex." TextColor="HotPink" FontSize="12" FontAttributes="Bold" TranslationY="-3" BackgroundColor="Transparent" AbsoluteLayout.LayoutBounds="215, 0, 45, 45" Clicked="Export_Clicked"/>
+            <Entry Placeholder="Team Number" PlaceholderColor="Red" TextColor="Red" FontSize="12" HorizontalTextAlignment="Center" BackgroundColor="#Ca7e0202" AbsoluteLayout.LayoutBounds="0, 45, 125, 45" Keyboard = "Numeric" TextChanged="Entry_TextChanged"/>
+            <Entry Placeholder="Match Number" PlaceholderColor="#5cceff" TextColor="#5cceff" FontSize="12" HorizontalTextAlignment="Center" BackgroundColor="#ca02298d" AbsoluteLayout.LayoutBounds="130, 45, 125, 45" Keyboard = "Numeric" TextChanged="Entry_TextChanged_1"  />
+            <Label Text="Rocket Hatch" TextColor="Red" FontSize="12" XAlign="Center" BackgroundColor="#Ca7e0202" AbsoluteLayout.LayoutBounds="0, 100, 125, 20"/>
+            <Entry Placeholder="Level 3" PlaceholderColor="Red" TextColor="Red" HorizontalTextAlignment="Center" FontSize="12" BackgroundColor="#Ca7e0202" AbsoluteLayout.LayoutBounds="25, 130, 75, 35" Keyboard = "Numeric" TextChanged="Entry_TextChanged_4"/>
+            <Entry Placeholder="Level 2" PlaceholderColor="Red" TextColor="Red" HorizontalTextAlignment="Center" FontSize="12" BackgroundColor="#Ca7e0202" AbsoluteLayout.LayoutBounds="25, 170, 75, 35" Keyboard = "Numeric" TextChanged="Entry_TextChanged_3"/>
+            <Entry Placeholder="Level 1" PlaceholderColor="Red" TextColor="Red" HorizontalTextAlignment="Center" FontSize="12" BackgroundColor="#Ca7e0202" AbsoluteLayout.LayoutBounds="25, 210, 75, 35" Keyboard = "Numeric" TextChanged="Entry_TextChanged_2"/>
+            <Entry Placeholder="Cargo Ship" PlaceholderColor="Red" TextColor="Red" HorizontalTextAlignment="Center" FontSize="12" BackgroundColor="#Ca7e0202" AbsoluteLayout.LayoutBounds="25, 250, 75, 35" Keyboard = "Numeric" TextChanged="Entry_TextChanged_8"/>
+            <Label Text="Rocket Cargo" TextColor="#5cceff" FontSize="12" XAlign="Center" BackgroundColor="#ca02298d" AbsoluteLayout.LayoutBounds="130, 100, 125, 20"/>
+            <Entry Placeholder="Level 3" PlaceholderColor="#5cceff" TextColor="#5cceff" HorizontalTextAlignment="Center" FontSize="12" BackgroundColor="#ca02298d" AbsoluteLayout.LayoutBounds="155, 130, 75, 35" Keyboard = "Numeric" TextChanged="Entry_TextChanged_7"/>
+            <Entry Placeholder="Level 2" PlaceholderColor="#5cceff" TextColor="#5cceff" HorizontalTextAlignment="Center" FontSize="12" BackgroundColor="#ca02298d" AbsoluteLayout.LayoutBounds="155, 170, 75, 35" Keyboard = "Numeric" TextChanged="Entry_TextChanged_6"/>
+            <Entry Placeholder="Level 1" PlaceholderColor="#5cceff" TextColor="#5cceff" HorizontalTextAlignment="Center" FontSize="12" BackgroundColor="#ca02298d" AbsoluteLayout.LayoutBounds="155, 210, 75, 35" Keyboard = "Numeric" TextChanged="Entry_TextChanged_5"/>
+            <Entry Placeholder="Cargo Ship" PlaceholderColor="#5cceff" TextColor="#5cceff" HorizontalTextAlignment="Center" FontSize="12" BackgroundColor="#ca02298d" AbsoluteLayout.LayoutBounds="155, 250, 75, 35" Keyboard = "Numeric" TextChanged="Entry_TextChanged_9"/>
+            <Button Text="HAB Climb Lvl 3" TextColor="MediumPurple" FontSize="12" BackgroundColor="#Ca18057f" AbsoluteLayout.LayoutBounds="60, 293, 135, 35" Clicked="HABStart3_Clicked"/>
+            <Button Text="HAB Climb Lvl 2" TextColor="MediumPurple" FontSize="12" BackgroundColor="#Ca18057f" AbsoluteLayout.LayoutBounds="60, 333, 135, 35" Clicked="HABStart2_Clicked"/>
+            <Button Text="HAB Climb Lvl 1" TextColor="MediumPurple" FontSize="12" BackgroundColor="#Ca18057f" AbsoluteLayout.LayoutBounds="60, 373, 135, 35" Clicked="HABStart1_Clicked"/>
+            <Button Text="Next Match" TextColor="#5cceff" FontSize="12" BackgroundColor="#ca02298d" AbsoluteLayout.LayoutBounds="135, 418, 135, 35" Clicked="NextMatch"/>
+        </AbsoluteLayout>
+    </ScrollView>
+</ContentPage>
