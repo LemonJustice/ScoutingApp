@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.ScoutingApp">
-  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
-  <uses-permission android:name="android.permission.INTERNET" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.ScoutingApp" android:installLocation="auto">
+  <uses-sdk android:minSdkVersion="20" android:targetSdkVersion="25" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:label="ScoutingApp.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
+  <uses-permission android:name="android.permission.INTERNET" />
+  <application android:label="ScoutingApp.Android" android:icon="@drawable/neobotslogo" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="ScoutingApp" android:theme="@style/MainTheme" android:name="md528cce1e69141c84e97c6236dd65721b9.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
@@ -21,4 +21,5 @@
       </intent-filter>
     </receiver>
   </application>
+  <application android:largeHeap="true"></application>
 </manifest>

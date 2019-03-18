@@ -63,7 +63,7 @@ namespace ScoutingApp
                 if (RepeatTeam == -1)
                 {
                     Data[CurrIndex][i] = Entries[i].Text;
-                }else if(i < 2)
+                }else if(i < 2 || i == 11)
                 {
                     Data[RepeatTeam][i] = Entries[i].Text;
                 }else if(i >= 2 && i < 10)
@@ -229,6 +229,10 @@ namespace ScoutingApp
                 ((Entry)sender).Text = "8";
             }
             Entries[9] = (Entry)sender;
+        }
+        private void Entry_TextChanged_10(object sender, TextChangedEventArgs e)
+        {
+            Entries[11] = (Entry)sender;
         }
 
         private void HABStart3_Clicked(object sender, EventArgs e)
