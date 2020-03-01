@@ -4,6 +4,7 @@
     <SelectedDevice>Samsung SM-G930F</SelectedDevice>
     <DefaultDevice>Android_Accelerated_x86_Oreo</DefaultDevice>
     <JavaMaximumHeapSize>1G</JavaMaximumHeapSize>
+    <AndroidDesignerPreferredTheme>Theme.DeviceDefault</AndroidDesignerPreferredTheme>
   </PropertyGroup>
   <PropertyGroup>
     <AndroidDesignerJavaRendererMinMemory>128m</AndroidDesignerJavaRendererMinMemory>

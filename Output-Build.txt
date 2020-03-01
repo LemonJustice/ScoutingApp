@@ -1,0 +1,3 @@
+﻿1>------ Build started: Project: ScoutingApp, Configuration: Release Any CPU ------
+1>ScoutingApp -> C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp\bin\Release\netstandard2.0\ScoutingApp.dll
+2>------ Build started: Project: ScoutingApp.Android, Configuration: Release Any CPU ------
