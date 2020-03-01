@@ -45,8 +45,8 @@ namespace ScoutingApp
             Data = new List<string>{ "null", "null", "0", "0", "0", "0", "0", "0", "0", "Null" };
             Original = new List<string> { "null", "null", "0", "0", "0", "0", "0", "0", "0", "Null" };
             Entries = new List<Entry> ( new Entry[10] );
-            this.BackgroundImageSource = "background.png";
-            this.IconImageSource = "neobotsLogo.png";
+            this.BackgroundImage = "background.png";
+            this.Icon = "neobotsLogo.png";
 
             StoragePopup();
         }

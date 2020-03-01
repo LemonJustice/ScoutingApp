@@ -402,3 +402,13 @@ C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp.Android\obj\Rele
 C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp.Android\bin\Release\ScoutingApp.dll.mdb
 C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp.Android\obj\Release\90\stamp\SetupDependenciesForDesigner.stamp
 C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp.Android\obj\Release\90\android\assets\ScoutingApp.dll.mdb
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp.Android\obj\Release\90\flata\0908D499FBAB4D9A.stamp
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp.Android\obj\Release\90\flata\5C303EEEBB1EB31F.stamp
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp.Android\obj\Release\90\flata\56C687D1EAE1AC19.stamp
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp.Android\obj\Release\90\flata\91FFD46F50C7F2C4.stamp
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp.Android\obj\Release\90\flata\A042620809BB757B.stamp
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp.Android\obj\Release\90\flata\0908D499FBAB4D9A.flata
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp.Android\obj\Release\90\flata\5C303EEEBB1EB31F.flata
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp.Android\obj\Release\90\flata\56C687D1EAE1AC19.flata
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp.Android\obj\Release\90\flata\91FFD46F50C7F2C4.flata
+C:\Users\Lemon\source\repos\ScoutingApp\ScoutingApp\ScoutingApp.Android\obj\Release\90\flata\A042620809BB757B.flata
